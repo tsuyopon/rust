@@ -2,6 +2,8 @@
  * 関数の単純なサンプル
  */
 
+// 関数名はsnake_caseを利用します。
+
 // returnを記述する場合
 fn add(x: i32, y: i32) -> i32 {
     return x + y;

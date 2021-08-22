@@ -1,8 +1,15 @@
 /*
  * for文のサンプル
  */
-fn main(){
-	for i in 0..10 {
-		println!("{}", i);
-	}
+fn main() {
+
+    // ..演算子は、0から4まで
+    for x in 0..5 {
+        println!("{}", x);
+    }
+
+    // ..=演算子は、0から5まで
+    for x in 0..=5 {
+        println!("{}", x);
+    }
 }

@@ -8,6 +8,7 @@ struct Human {
 }
 
 trait Action {
+    // Rustではnon-staticメソッドは self という特殊な名前の引数を持つ関数として定義されている
     fn say_age(&mut self);
 }
 
